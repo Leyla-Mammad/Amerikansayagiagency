@@ -13,7 +13,7 @@
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body style="margin: 0;padding: 0;box-sizing: border-box;overflow-x: hidden;width: 100%;">
-    <section class="navbar" style="background-color: rgb(0, 0, 79);padding: 40px 0;">
+    <section class="navbar" style="background-color: #070A0F;padding: 40px 0;">
         <div class="container" style="width:73%;">
         <div class="row" style="width:100%; display: flex; justify-content:space-between;align-items: center; " >
         <div class="home-logo col-lg-2" >
@@ -22,15 +22,18 @@
 
          <div class="col-lg-8" style=" display: flex;justify-content: space-around; align-items: center;">
             <a style="  font-size: 17px;" class="col-lg-2" href="shop.html">Ana Səhifə</a>
-            <a style="  font-size: 17px;" class="col-lg-2" href="shop.html">Reklam</a>
             <a style=" font-size: 17px;" class="col-lg-2" href="contact.html">Xidmətlərimiz</a>  
            <a style="  font-size: 17px;" class="col-lg-2" href="about.html">Haqqımızda</a>
            <a style=" font-size: 17px;" class="col-lg-2" href="contact.html">Partnyorlar</a>
+           <a style="  font-size: 17px;" class="col-lg-2" href="shop.html">Əlaqə</a>
+
 
   
          </div>
          <div class="col-lg-2" style="text-align: right;">
-            <a  style=" font-size: 17px;" href="contact.html">Bizimlə Əlaqə</a>      
+            <a  style=" font-size: 17px; border: 1px solid #000000; border-radius: 7px; padding: 10px 30px;
+                background: linear-gradient(to right,  #6366f1, #b14bf4 , #a855f7,#ec4899, #fa5560);
+            " href="contact.html">Reklam</a>      
          </div>
         
 
@@ -38,7 +41,22 @@
         </div>
     </section>
 
-<section class="services" style="padding: 100px;">
+
+    <section class="advertise" style="padding: 20px 100px;">
+        <h2 style="text-align: center; padding: 50px 150px;" >Reklam üçün seçin.</h2>
+        <div class="ads">
+        <button>Facebook</button>
+    <button>Instagram</button>
+    <button>Telegram</button>
+    <button>TikTok</button>
+    <button>Youtube</button>
+</div>
+
+    </section>
+
+<section class="services" style="padding: 50px;">
+    <h2 style="text-align: center; padding: 50px;">Xidmətlərimiz</h2>
+
     <div style="display: flex; justify-content: space-around;  padding: 0 0 60px 0;">
         <div class="col-lg-2">
             <i class="fa-regular fa-thumbs-up"></i>
@@ -102,7 +120,7 @@
 
 
 
-    <footer class="navbar" style="background-color: rgb(85, 85, 170); padding: 70px 0;">
+    <footer class="navbar" style="background-color: black; padding: 70px 0;">
         <div class="container ">
         <div class="row" style="width:100%; display: flex; justify-content:space-between;" >
         <div class="home-logo col-lg-4" >
@@ -132,6 +150,8 @@
              <div>
                 <form style="padding: 30px 0;" action="https://filagency.az/send-subscribe" method="POST">
                     <h6>Fidbəkləriniz bizim üçün dəyərlidir:</h6>
+
+                    
                     <input type="hidden" name="_token" value="jqGpOhWvAQouJykbVxCNF9izYa6wtkqQclYUCd0a">
                      <label for="send" class="send-message flex a-center">
                     <input type="text" name="subscribe" id="send">
@@ -155,7 +175,10 @@
 
 
 </body>
-<script>$(document).ready(function(){
+<script src="app.js"></script>
+<script>
+
+$(document).ready(function(){
     $('.customer-logos').slick({
         slidesToShow: 6,
         slidesToScroll: 1,

@@ -1,3 +1,7 @@
+body {
+    background: linear-gradient(to right,  #6366f1, #b14bf4 , #a855f7,#ec4899, #fa5560);
+}
+
 body a{
     text-decoration:none;
 }
@@ -6,6 +10,7 @@ body a{
 }
 .row a:hover{
     color: orangered;
+    text-decoration: none;
 }
 
 .services i{
@@ -15,11 +20,25 @@ body a{
     color: rgb(5, 5, 71);
 }
 
-
-
 li{
     list-style: none;
 }
+
+.ads{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 100px;
+}
+.ads button{
+ 
+ border: 1px solid none; 
+   border-radius: 10px;
+padding: 10px 30px ;
+                background: linear-gradient(to right,  #6366f1, #b14bf4 , #a855f7,#ec4899, #fa5560);
+}
+
+
 
 
 /* Slider */
@@ -138,3 +157,15 @@ li{
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
