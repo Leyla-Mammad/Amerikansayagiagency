@@ -1,6 +1,4 @@
-body {
-    background: linear-gradient(to right,  #6366f1, #b14bf4 , #a855f7,#ec4899, #fa5560);
-}
+
 
 body a{
     text-decoration:none;
@@ -14,16 +12,19 @@ body a{
 }
 
 .services i{
-    color: orangered;
+    color: rgb(211, 3, 194);
 }
 .services h3{
-    color: rgb(5, 5, 71);
+    color: rgb(255, 255, 255);
 }
 
 li{
     list-style: none;
 }
 
+.home-logo h2{
+    color: white;
+}
 .ads{
     display: flex;
     justify-content: space-around;
